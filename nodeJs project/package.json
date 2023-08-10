@@ -1,0 +1,15 @@
+{
+  "name": "notification-management",
+  "version": "1.0.0",
+  "description": "example model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Hariharan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
