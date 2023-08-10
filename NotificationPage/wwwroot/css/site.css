@@ -1,0 +1,41 @@
+body {
+    background-color: #C9D6FF;
+}
+.containerEl {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#notificationContainer {
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius:20px;
+}
+.notificationCard {
+    background-color: #CFDEF3;
+    border-radius:15px;
+}
+.nameEl{
+    font-weight:700;
+    color:#000;
+    font-size:1rem;
+    transition:.2s ease-in;
+    cursor:pointer;
+}
+    .nameEl:hover {
+        color: #00416A;
+    }
+.sourceEl {
+    font-weight: 700;
+    color: #616161;
+    font-size: 1rem;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+    .sourceEl:hover {
+        color: #00416A;
+    }
